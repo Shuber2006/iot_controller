@@ -1,0 +1,15 @@
+android {
+    namespace = "com.example.iot_controller"
+    compileSdk = flutter.compileSdkVersion
+    ndkVersion = flutter.ndkVersion
+
+    defaultConfig {
+        applicationId = "com.example.iot_controller"
+        minSdk = 23  // Change this to 23 (was probably 21)
+        targetSdk = flutter.targetSdkVersion
+        versionCode = flutter.versionCode
+        versionName = flutter.versionName
+    }
+    
+    // ... rest of the file
+}
